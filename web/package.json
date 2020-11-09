@@ -5,10 +5,10 @@
   "author": "@pau1tuck",
   "license": "MIT",
   "scripts": {
-    "dev": "esbuild src/index.tsx --bundle '--define:process.env.NODE_ENV=\"development\"' --outfile=static/client/index.js --color=true",
+    "dev": "esbuild src/index.tsx --bundle '--define:process.env.NODE_ENV=\"development\"' --outfile=static/web/index.js --color=true",
     "compile": "tsc -w",
     "test": "jest --config='./jest.config.js' --watchman",
-    "build": "esbuild src/index.tsx --bundle '--define:process.env.NODE_ENV=\"production\"' --minify --outfile=static/client/index.js"
+    "build": "esbuild src/index.tsx --bundle '--define:process.env.NODE_ENV=\"production\"' --minify --outfile=static/web/index.js"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "^1.17.8",
@@ -40,10 +40,15 @@
     "graphql": "^15.0.0",
     "graphql-tag": "^2.11.0",
     "js-cookie": "^2.2.1",
+    "normalize.css": "^8.0.1",
     "react": "^16.14.0",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^16.14.0",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.2.1"
+  },
+  "resolutions": {
+    "styled-components": "^5"
   },
   "browserslist": [
     "last 3 and_chr versions",
