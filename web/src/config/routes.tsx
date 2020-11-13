@@ -6,7 +6,7 @@ import "../styles/reset.css";
 export const Routes = () => {
     return <div>Hello, Shite Eater.
         <Switch>
-            <Route path="/flashcards" component={Flashcards} />
+            <Route path="/flashcards/:id" component={Flashcards} />
         </Switch>
     </div>
 }

@@ -13,5 +13,6 @@ const Card = styled.div`
 `;
 
 export const Flashcards = () => {
-    return <Card></Card>
+  
+    return <Card>Dog</Card>
 }

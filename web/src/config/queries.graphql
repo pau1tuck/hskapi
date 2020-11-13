@@ -1,0 +1,15 @@
+query Vocabulary($id: String!) {
+  vocabulary(lesson_id: $id) {
+    id
+    lesson_id
+    title
+    content
+    author {
+      id
+      firstName
+      lastName
+      email
+    }
+    createdAt
+  }
+}
