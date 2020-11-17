@@ -1,12 +1,13 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import { Flashcards } from "../modules/Flashcards";
-import "../styles/reset.css";
+import { Flashcards } from "../modules/Flashcards/Flashcards";
 
 export const Routes = () => {
-    return <div>Hello, Shite Eater.
-        <Switch>
-            <Route path="/flashcards/:id" component={Flashcards} />
-        </Switch>
-    </div>
-}
+	return (
+		<div>
+			<Switch>
+				<Route path="/flashcards" component={Flashcards} />
+			</Switch>
+		</div>
+	);
+};

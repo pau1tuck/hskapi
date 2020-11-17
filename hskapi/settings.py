@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'corsheaders',
+    'graphene_django',
     'hskapi.users',
     'hskapi.vocabulary',
     'web'
@@ -78,6 +79,10 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
+}
+
+GRAPHENE = {
+    'SCHEMA': 'hskapi.schema.schema',
 }
 
 AUTH_USER_MODEL = 'users.User'

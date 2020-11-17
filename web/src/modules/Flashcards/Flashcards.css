@@ -1,0 +1,41 @@
+.card {
+	max-width: 600px;
+	/*border: 1px solid #8e8e8e;*/
+	height: 310px;
+	background: #fff;
+	border-radius: 2px;
+	position: relative;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.button-container {
+	display: absolute;
+	float: right;
+	width: 60px;
+	height: 210px;
+}
+
+.button {
+	width: 60px;
+	height: 50px;
+	border-left: 1px solid #b4b4b4;
+	border-bottom: 1px solid #b4b4b4;
+	padding-top: 25px;
+	font-size: 21px;
+	text-align: center;
+	color: #474747;
+	cursor: pointer;
+}
+
+.button-en {
+	height: 46px;
+	padding-top: 25px;
+}
+
+.card-content {
+	display: flex;
+	justify-content: center;
+	padding-top: 120px;
+	padding-left: 60px;
+	font-size: 30px;
+}
