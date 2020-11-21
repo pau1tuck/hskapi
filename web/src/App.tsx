@@ -4,7 +4,7 @@ import { ApolloProvider } from "@apollo/client";
 import { client } from "./config/apollo";
 import { Loading } from "./components/Loading";
 import { Routes } from "./config/routes";
-import "./styles/reset.css";
+import "./sass/style.scss";
 
 const App = ({ children }: any) => {
 	return (

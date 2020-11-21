@@ -40,6 +40,8 @@
 		"enzyme": "^3.11.0",
 		"esbuild": "^0.7.15",
 		"jest": "^26.5.3",
+		"sass": "^1.29.0",
+		"sass-loader": "^10.1.0",
 		"style-loader": "^2.0.0",
 		"ts-jest": "^26.4.1",
 		"tslint": "^6.1.3",

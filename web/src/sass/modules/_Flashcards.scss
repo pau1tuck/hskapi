@@ -21,7 +21,7 @@
 .card-content {
 	position: absolute;
 	width: 90%;
-	margin-left: 15px;
+	margin-left: 20px;
 	justify-content: center;
 	text-align: center;
 	margin-top: 100px;
@@ -37,11 +37,11 @@
 }
 
 .button {
-	width: 60px;
+	width: 59px;
 	height: 50px;
-	border-left: 1px solid #b4b4b4;
-	border-bottom: 1px solid #b4b4b4;
-	padding-top: 25px;
+	border-left: 1px solid #dfdfdf;
+	border-bottom: 1px solid #dfdfdf;
+	padding-top: 26px;
 	font-size: 21px;
 	text-align: center;
 	color: #474747;
@@ -51,9 +51,18 @@
 .button-en {
 	height: 46px;
 	padding-top: 25px;
+	border-radius: 0px 0px 0px 5px;
+}
+
+.inactive-button {
+	color: #f0f0f0;
 }
 
 .button:hover {
+	background-color: #f8f8f8;
+}
+
+.button:active {
 	background-color: #f0f0f0;
 }
 
@@ -69,28 +78,35 @@
 .back-button {
 	position: absolute;
 	width: 50%;
-	height: 44px;
+	height: 43px;
 	border-top: 1px solid #b4b4b4;
 	border-right: 1px solid #b4b4b4;
-	padding-top: 5px;
+	padding-top: 6px;
 	font-size: 34px;
 }
 
 .back-button:hover {
+	background-color: #f8f8f8;
+}
+
+.back-button:active {
 	background-color: #f0f0f0;
 }
 
 .forward-button {
 	position: absolute;
 	width: 50%;
-	height: 44px;
+	height: 43px;
 	margin-left: 50%;
 	border-top: 1px solid #b4b4b4;
 	border-left: 1px solid #b4b4b4;
-	padding-top: 5px;
+	padding-top: 6px;
 	font-size: 34px;
 }
 
 .forward-button:hover {
+	background-color: #f8f8f8;
+}
+.forward-button:active {
 	background-color: #f0f0f0;
 }
